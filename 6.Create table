@@ -1,0 +1,11 @@
+
+create table Employees
+(
+EmployeeID int NOT NULL,
+FirstName nvarchar(50) NOT NULL,
+MiddleName nvarchar(50),
+LastName nvarchar(50) NOT NULL,
+Age tinyint NOT NULL,
+Salary smallmoney,
+DepartmentID int NOT NULL
+);
